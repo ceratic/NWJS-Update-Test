@@ -1,0 +1,32 @@
+{
+  "main": "app.html",
+  "name": "nwjsupdatetest",
+  "version": "0.1.0",
+  "app-id": "com.ceratic.nwjsupdatetest",
+  "chromium-args": "--disable-setuid-sandbox",
+  "window": {
+    "width": 800,
+    "height": 600,
+    "title": "Starter",
+    "icon": "icons/icon.png",
+    "toolbar": false,
+    "show": false
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+    "async": "^1.0.0",
+    "auto-launch": "^0.1.18",
+    "jfs": "^0.2.5",
+    "request": "^2.56.0",
+    "semver": "^4.3.5"
+  },
+  "manifestUrl": "https://raw.githubusercontent.com/ceratic/nwjsupdatetest/master/src/package.json",
+  "packages": {
+    "osx64": "https://github.com/ceratic/nwjsupdatetest/releases/download/v0.1.0/nwjsupdatetest.dmg",
+    "win32": "https://github.com/ceratic/nwjsupdatetest/releases/download/v0.1.0/nwjsupdatetestSetup.exe",
+    "linux32": "https://github.com/ceratic/nwjsupdatetest/releases/download/v0.1.0/nwjsupdatetest_linux32.deb",
+    "linux64": "https://github.com/ceratic/nwjsupdatetest/releases/download/v0.1.0/nwjsupdatetest_linux64.deb"
+  }
+}
